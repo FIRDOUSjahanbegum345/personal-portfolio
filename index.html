@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firdous Jahan Begum — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================
+       HEADER & NAVIGATION
+       CSS-only toggle: hidden checkbox + label.
+       No JavaScript.
+       ========================= -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand">FJ.B</a>
+
+      <!-- Hidden state controller for the mobile menu -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="menu-toggle" aria-hidden="true">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO / HOME
+       ========================= -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Artificial Intelligence &amp; Data Science</p>
+      <h1 class="hero-name">Hi, I'm Firdous Jahan Begum.</h1>
+      <p class="hero-tagline">AI &amp; Data Science Engineering Student &nbsp;|&nbsp; Aspiring Software Developer</p>
+      <p class="hero-intro">
+        I am an engineering student with a strong interest in technology, software development,
+        and artificial intelligence. I enjoy building practical projects, learning new tools through
+        hands-on work, and turning ideas into usable web and data-driven applications.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       ABOUT
+       ========================= -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-body">
+        I am pursuing a Bachelor of Engineering in Artificial Intelligence &amp; Data Science at
+        Stanley College of Engineering &amp; Technology for Women, where I maintain a GPA of 8.5.
+        My studies have given me a foundation in programming, databases, network security, and
+        machine learning, and I like applying these concepts through project-based learning.
+      </p>
+      <p class="about-body">
+        Through internships and academic projects, I have worked on web development, networking
+        tools, and AI-related assignments. I am currently looking for opportunities to contribute
+        to real-world software and data projects while continuing to learn and grow as a developer.
+      </p>
+
+      <div class="about-grid">
+        <!-- Education card -->
+        <div class="card education-card">
+          <h3 class="card-label">Education</h3>
+          <div class="edu-block">
+            <p class="edu-name">Stanley College of Engineering &amp; Technology for Women</p>
+            <p class="edu-degree">Bachelor of Engineering (B.E.)</p>
+            <p class="edu-branch">Artificial Intelligence &amp; Data Science</p>
+            <p class="edu-duration">2023 – 2027</p>
+            <p class="edu-gpa">GPA: 8.5</p>
+          </div>
+        </div>
+
+        <!-- Quick facts card -->
+        <div class="card facts-card">
+          <h3 class="card-label">Quick Facts</h3>
+          <ul class="facts-list">
+            <li><span>Focus</span> AI, Data Science &amp; Web Development</li>
+            <li><span>Learning style</span> Project-based &amp; hands-on</li>
+            <li><span>Open to</span> Internships &amp; entry-level opportunities</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       SKILLS
+       ========================= -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">
+        A snapshot of the technical areas I have studied and used in projects and internships.
+      </p>
+      <div class="skills-grid">
+        <span class="chip">Python</span>
+        <span class="chip">C</span>
+        <span class="chip">Java</span>
+        <span class="chip">R</span>
+        <span class="chip">DBMS</span>
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">AI/ML</span>
+        <span class="chip">Network Security</span>
+        <span class="chip">Responsive Web Design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       PROJECTS
+       ========================= -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-sub">
+        A selection of projects I have worked on, from network security tools to web applications.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <h3 class="project-title">CyberGuard — Network Security Tool</h3>
+          <p class="project-desc">
+            Built a network security application to monitor traffic and identify vulnerabilities
+            within local network environments.
+          </p>
+          <p class="project-role">
+            <strong>My role:</strong> Developed packet-sniffing modules and real-time threat
+            detection alerts and optimized data logging for security reporting.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Scapy</span>
+            <span class="tech-tag">Network Security</span>
+            <span class="tech-tag">Socket Programming</span>
+          </div>
+          <a href="https://github.com/FIRDOUSjahanbegum345/CyberGuard" target="_blank" rel="noopener" class="project-link">View on GitHub</a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <h3 class="project-title">AI-Driven Smart Hiring Platform with Candidate Matching Copilot</h3>
+          <p class="project-desc">
+            Developed an AI-powered recruitment platform for candidate matching.
+          </p>
+          <p class="project-role">
+            <strong>My role:</strong> Implemented features, debugging, and testing.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">AI/ML</span>
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+                  <a
+          href="https://github.com/Yuvaraju-csd/Al-Driven_Smart_Hiring_Platform_with_Candidate_Matching_Copilot_Team-B"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link"
+        >
+          View Project on GitHub
+        </a>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <h3 class="project-title">Professional Portfolio Website</h3>
+          <p class="project-desc">
+            Designed a responsive, multi-page portfolio website.
+          </p>
+          <p class="project-role">
+            <strong>My role:</strong> Built UI components and managed layouts using CSS Grid and Flexbox.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Responsive Design</span>
+          </div>
+          <span class="project-details-label">Project Details</span>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card">
+          <h3 class="project-title">Interactive Landing Page</h3>
+          <p class="project-desc">
+            Created a landing page focused on optimized UI, smooth animations, and mobile responsiveness.
+          </p>
+          <p class="project-role">
+            <strong>My role:</strong> Performed debugging and cross-browser testing.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">Web Debugging</span>
+            <span class="tech-tag">Deployment</span>
+          </div>
+          <span class="project-details-label">Project Details</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       EXPERIENCE
+       ========================= -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-sub">
+        Internships and training programs that helped me apply classroom learning to real work.
+      </p>
+
+      <div class="timeline">
+
+        <!-- Experience 1 -->
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="exp-period">April 2025 – June 2025</p>
+            <h3 class="exp-role">Web Development Intern</h3>
+            <p class="exp-company">Main Flow Services and Technologies Pvt. Ltd.</p>
+            <p class="exp-desc">
+              Developed a multi-page personal portfolio website featuring Home, Services, and
+              Contact modules using semantic HTML5.
+            </p>
+          </div>
+        </article>
+
+        <!-- Experience 2 -->
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="exp-period">June 29, 2026 – August 31, 2026</p>
+            <h3 class="exp-role">Internship 7.0 (B1)</h3>
+            <p class="exp-company">Infosys Springboard</p>
+            <p class="exp-program">Program: AI-Driven Smart Hiring Platform with Candidate Matching Copilot</p>
+            <p class="exp-desc">
+              Participated in the internship and successfully completed the mandatory assignment
+              for the program. Worked on implementation, debugging, and testing.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       CERTIFICATIONS
+       ========================= -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <p class="section-sub">
+        Courses and training programs I have completed.
+      </p>
+      <ul class="cert-list">
+        <li>Machine Learning with Python — Simplilearn</li>
+        <li>Advanced AI for Business — Simplilearn</li>
+        <li>Introduction to MS Excel — Simplilearn</li>
+        <li>Deep Learning for Beginners — Simplilearn</li>
+        <li>Introduction to Sorting Algorithms — Simplilearn</li>
+        <li>Completion of C — Talentio</li>
+        <li>Web Development Internship Training &amp; Completion — Main Flow</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========================
+       ACHIEVEMENTS & ACTIVITIES
+       ========================= -->
+  <section id="achievements" class="section achievements">
+    <div class="container">
+      <h2 class="section-title">Achievements &amp; Activities</h2>
+      <ul class="activity-list">
+        <li>
+          Participated in a Picture Presentation Competition in 2024.
+        </li>
+        <li>
+          Attended an AI workshop by be10x and completed a workshop on AI tools and Claude in 2026.
+        </li>
+        <li>
+          Participated in the StanFest campaign team organized by my college.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========================
+       CONTACT
+       ========================= -->
+  <section id="contact" class="section contact">
+    <div class="container contact-inner">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">
+        I would love to connect about technology, projects, and opportunities.
+        Feel free to reach out through any of the channels below.
+      </p>
+
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:juveriyafirdous2006@gmail.com" class="contact-link">juveriyafirdous2006@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">Phone</span>
+          <a href="tel:+917093737613" class="contact-link">+91 7093737613</a>
+        </li>
+        <li>
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/FIRDOUSjahanbegum345" target="_blank" rel="noopener" class="contact-link">github.com/FIRDOUSjahanbegum345</a>
+        </li>
+        <li>
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/firdous-jahan-begum-984493359/" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/firdous-jahan-begum</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========================
+       FOOTER
+       ========================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2026 Firdous Jahan Begum. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/FIRDOUSjahanbegum345" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/firdous-jahan-begum-984493359/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
